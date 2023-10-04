@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Oak Wood Front Door",
+      "description": "A sturdy solid wood front door suitable for residential entrances.",
+      "amount": 3
+    },
+    {
+      "name": "Energy-Efficient Casement Window",
+      "description": "An energy-efficient casement window with double glazing and UV protection.",
+      "amount": 5
+    },
+    {
+      "name": "Steel Pillar",
+      "description": "A reusable steel pillar designed for architectural support.",
+      "amount": 14
+    },
+    {
+      "name": "Terracotta Roofing Tiles",
+      "description": "Authentic terracotta roofing tiles known for their durability and rustic appeal.",
+      "amount": 112
+    },
+    {
+      "name": "Handcrafted Red Clay Bricks",
+      "description": "Handcrafted red clay bricks, perfect for accent walls and timeless architectural designs.",
+      "amount": 185
+    },
+    {
+      "name": "Sliding Glass Door",
+      "description": "A simple sliding glass door for easy access to patios or gardens.",
+      "amount": 1
+    },
+    {
+      "name": "Interior French Doors",
+      "description": "Charming interior French doors, adding elegance to interior spaces.",
+      "amount": 0
+    },
+    {
+      "name": "Steel Window Grilles",
+      "description": "Sturdy steel window grilles, providing added security.",
+      "amount": 15
+    },
+    {
+      "name": "Aluminum Balcony Railing",
+      "description": "Durable aluminum balcony railing for safety and aesthetics.",
+      "amount": 7
+    },
+    {
+      "name": "Composite Decking Boards",
+      "description": "Low-maintenance composite decking planks for outdoor areas.",
+      "amount": 23
+    }
+  ]
+  
