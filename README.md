@@ -135,8 +135,6 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
 ![Materials Page Demo](./assets/materials_page.gif)
 
 
-## Must-Have Features
-
 1. ### Frontend Material List and Intuitive Interface
     The web page http://localhost/materials/ displays a list of materials fetched from the backend API. Remember that you need to authorize first.
     
@@ -163,9 +161,7 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
     - **nginx**: Nginx web server serving frontend and API docs, with configuration and mounted volumes.
     - **redis**: Redis container for real-time communication, ensuring WebSocket functionality.
 
-## Nice-To-Have Features
-
-1. ### Filter and Search Functionality
+3. ### Filter and Search Functionality
     The materials page offers both filtering and search capabilities:
     
     Users can pick checkboxes corresponding to the material type (e.g., doors, windows, bricks, etc.) they are interested in, refining the displayed results to better match their preferences.
@@ -175,7 +171,7 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
       📌 **Kind Reminder:** When loading data into the database, the default file type is set to "other". You can modify this setting in the admin panel.
   
 
-2. ### Real-Time Material Updates via WebSocket Integration
+4. ### Real-Time Material Updates via WebSocket Integration
     The materials page features real-time material updates. By leveraging WebSocket technology and the Channels library, this update delivers immediate notifications without the need for manual intervention or page refreshes.
     
     Testing the Feature
@@ -185,23 +181,16 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
     - Update material information (any information) or add new materials.
     - Observe how all changes are instantly reflected in real-time. 😊
 
-  3. ### User Authentication
+5. ### User Authentication
       The application is set up with user authentication. Only registered and logged-in users have access to the materials page.
 
-## Other Features
-1. ### Material Data Import Command
+6. ### Material Data Import Command
     For populating the database with material data, a specialized management command, ***load_materials***, has been introduced. This command reads a specified JSON file, extracts material data, and integrates this data into the database.
 
     One of the command's features is image optimization using Pillow. During the image processing phase, the dimensions of images are checked. ***If an image's size exceeds a predefined maximum, it is resized to ensure optimal storage and loading performance***.
 
     The application has a custom storage mechanism through ***the CustomThumborStorage class***. Unlike the default ThumborStorage, this custom ***storage doesn't validate file names before saving***. This offers flexibility in the file saving process.
 
-2. ### Interactive 3D Background
+7. ### Interactive 3D Background
     The application incorporates an interactive 3D globe background. This visual element, using the vanta.globe effect, responds to mouse movements. The background's visual properties are customizable.
 
-## Contact Me
-  If you have any questions or need further information, please feel free to contact me:
-
-- **Email:** [redichkina.am@gmail.com](mailto:redichkina.am@gmail.com)
-
-Please don't hesitate to reach out!
