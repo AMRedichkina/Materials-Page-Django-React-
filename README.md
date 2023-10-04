@@ -1,4 +1,4 @@
-# Take Home Exercise
+# Materials Page (Django, React, Real-Time Material Updates)
 
 ## Table of Contents
 - [Key Technologies Used](#key-technologies-used)
