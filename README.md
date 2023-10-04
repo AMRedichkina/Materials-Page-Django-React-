@@ -44,7 +44,7 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
 
    Now, type the below line. Replace `<path to your project>` with the actual location of your project:
    ```bash
-   cd <path to your project>/Aleksandra_Redichkina_TakeHomeExercise/infra/
+   cd <path to your project>
 
 2. **Run the Deployment Script**: 
 
@@ -147,7 +147,7 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
 2. ### Communication Between Frontend and Backend
     The backend and frontend are closely integrated to deliver a seamless user experience. The backend exposes APIs for data interactions and WebSocket endpoints for real-time updates.
     
-    The frontend communicates with the backend using RESTful API requests. It can retrieve, create, update, and delete data through these endpoints. The **API documentation** is available at **./Aleksandra_Redichkina_TakeHomeExercise/docs/openapi-schema.yml.**
+    The frontend communicates with the backend using RESTful API requests. It can retrieve, create, update, and delete data through these endpoints. The **API documentation** is available at **<path to the project>/docs/openapi-schema.yml.**
     
     Real-time updates are facilitated through WebSocket connections. The backend sends notifications and data updates to the frontend, enabling users to stay informed without requiring manual refreshes.
     
