@@ -3,6 +3,9 @@
 ## Table of Contents
 - [Key Technologies Used](#key-technologies-used)
 - [Deployment Guide](#deployment-guide)
+- [Demo](#demo)
+  - [User Creation Demo](#user-creation-demo)
+  - [Materials Page Demo](#materials-page-demo)
 - [Must-Have Features](#must-have-features)
   - [Frontend Material List and Intuitive Interface](#frontend-material-list-and-intuitive-interface) 
   - [Communication Between Frontend and Backend](#communication-between-frontend-and-backend)
@@ -12,7 +15,9 @@
   - [Real-Time Material Updates via WebSocket Integration](#real-time-material-updates-via-websocket-integration)
   - [User Authentication](#user-authentication)
 - [Other Features](#other-features)
-  - [Custom Image Loading and Storage in Django](#custom-image-loading-and-storage-in-django)
+  - [Custom Image Loading and Storage](#material-data-import-command)
+  - [Interactive 3D Background](#interactive-3d-background)
+- [Contact Me](#contact-me)
 
 ## Key Technologies Used
 
@@ -40,10 +45,6 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
    Now, type the below line. Replace `<path to your project>` with the actual location of your project:
    ```bash
    cd <path to your project>/Aleksandra_Redichkina_TakeHomeExercise/infra/
-
-2. **Run the Deployment Script**: 
-
-  ## Deployment
 
 2. **Run the Deployment Script**: 
 
@@ -125,6 +126,14 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
 
     *Remember to change these default credentials or create a new superuser for security reasons.*
 
+## Demo
+
+### User Creation Demo
+![User Creation Demo](./assets/create%20user.gif)
+
+### Materials Page Demo
+![Materials Page Demo](./assets/materials_page.gif)
+
 
 ## Must-Have Features
 
@@ -163,6 +172,9 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
     
     The search functionality allows users to search for materials by name, quickly finding the specific items they're looking for.
 
+      📌 **Kind Reminder:** When loading data into the database, the default file type is set to "other". You can modify this setting in the admin panel.
+  
+
 2. ### Real-Time Material Updates via WebSocket Integration
     The materials page features real-time material updates. By leveraging WebSocket technology and the Channels library, this update delivers immediate notifications without the need for manual intervention or page refreshes.
     
@@ -187,3 +199,9 @@ Ensure you have **Docker** and **Docker Compose** installed on your machine. If 
 2. ### Interactive 3D Background
     The application incorporates an interactive 3D globe background. This visual element, using the vanta.globe effect, responds to mouse movements. The background's visual properties are customizable.
 
+## Contact Me
+  If you have any questions or need further information, please feel free to contact me:
+
+- **Email:** [redichkina.am@gmail.com](mailto:redichkina.am@gmail.com)
+
+Please don't hesitate to reach out!
